@@ -1,0 +1,10 @@
+displayName: query2port
+
+type: middleware
+
+import: github.com/brudnevskij/query2port
+
+summary: Forwards requests to a port specified in the query string.
+
+testData:
+  queryParamName: "port"
